@@ -18,8 +18,8 @@ import java.util.List;
 import java.util.Optional;
 
 @AutoSpellConfig
-public class SuperHealSpell extends AbstractSpell {
-    private final ResourceLocation spellId = new ResourceLocation(IronsExampleMod.MODID, "super_heal");
+public class MindSpell extends AbstractSpell {
+    private final ResourceLocation spellId = new ResourceLocation(IronsExampleMod.MODID, "mind_break");
 
     @Override
     public List<MutableComponent> getUniqueInfo(int spellLevel, LivingEntity caster) {
@@ -28,7 +28,7 @@ public class SuperHealSpell extends AbstractSpell {
         );
     }
 
-    public SuperHealSpell() {
+    public MindSpell() {
         this.manaCostPerLevel = 10;
         this.baseSpellPower = 6;
         this.spellPowerPerLevel = 1;

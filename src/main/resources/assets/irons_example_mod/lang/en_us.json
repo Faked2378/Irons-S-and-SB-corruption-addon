@@ -1,8 +1,8 @@
 {
-  "spell.irons_example_mod.super_heal": "Super Heal",
-  "spell.irons_example_mod.super_heal.guide": "Cast to heal yourself.",
+  "spell.irons_example_mod.mind_break": "mind break",
+  "spell.irons_example_mod.mind_break.guide": "Cast to temporarily break someones mind, causing parallelization .",
 
-  "ui.irons_example_mod.healing": "%d Healing",
+  "ui.irons_example_mod.breaking": "%d Breaking",
 
   "item.irons_example_mod.example_magic_sword": "Example Magic Sword"
 }
